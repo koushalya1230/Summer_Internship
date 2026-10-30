@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Node dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+dist/
+
+# Database
+*.db
+*.sqlite3
+
+# Uploaded documents
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Environment files
+.env.*
+!.env.example
+
+# Logs
+*.log

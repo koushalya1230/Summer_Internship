@@ -1,0 +1,12 @@
+{
+  "name": "internship-project-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix frontend run start",
+    "frontend": "npm --prefix frontend run dev",
+    "backend": "cd backend && python -m uvicorn app.main:app --reload --port 8000"
+  }
+}
